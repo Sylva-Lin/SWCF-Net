@@ -29,3 +29,14 @@ The code has been tested on Ubuntu 20.04 with 1 Nvidia 3090 GPU (24GB memory).
     ```bash
     python train_SemanticKITTI.py --log_dir your_result_path
     ```
+
+## Citation
+If you find _SWCF-Net_ useful to your research, please cite our work as an acknowledgment.
+```bib
+@article{lin2024swcf,
+  title={SWCF-Net: Similarity-weighted Convolution and Local-global Fusion for Efficient Large-scale Point Cloud Semantic Segmentation},
+  author={Lin, Zhenchao and He, Li and Yang, Hongqiang and Sun, Xiaoqun and Zhang, Cuojin and Chen, Weinan and Guan, Yisheng and Zhang, Hong},
+  journal={arXiv preprint arXiv:2406.11441},
+  year={2024}
+}
+```
