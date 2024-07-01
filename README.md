@@ -1,7 +1,7 @@
 # SWCF-Net
 SWCF-Net is accepted by IROS 2024 🎉🎉🎉
 
-## 1. Environment
+## Environment
 The code has been tested on Ubuntu 20.04 with 1 Nvidia 3090 GPU (24GB memory).
 
 1. Python 3.8.16
@@ -15,7 +15,7 @@ The code has been tested on Ubuntu 20.04 with 1 Nvidia 3090 GPU (24GB memory).
     pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113
     ```
 
-## 2. SemanticKITTI Segmentation
+## SemanticKITTI Segmentation
 
 1. **Data**: SemanticKITTI dataset can be found [here](http://semantic-kitti.org/dataset.html#download). Download the files related to semantic segmentation and extract everything into the same folder. Uncompress the folder and move it to ```/data/semantic_kitti/dataset```.
    Run the following command to prepare the dataset.
