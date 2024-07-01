@@ -10,10 +10,21 @@ The code has been tested on Ubuntu 20.04 with 1 Nvidia 3090 GPU (24GB memory).
     ```
 
 2. Install torch 1.10.0 + cu113
-
     ```bash
     pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113
     ```
+
+3. nearest_neighbors && cpp_wrappers
+   ```bash
+   cd utils/nearest_neighbors
+   python setup.py install --home="."
+   cd ../../
+   ```
+   ```bash
+   cd utils/cpp_wrappers
+   sh compile_wrappers.sh
+   cd ../../../
+   ```
 
 ## SemanticKITTI Segmentation
 
