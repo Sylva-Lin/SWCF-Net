@@ -1,5 +1,5 @@
 # distutils: language = c++
-# distutils: sources = knn.cxx
+# distutils: sources = knn_.cxx
 
 import numpy as np
 cimport numpy as np
